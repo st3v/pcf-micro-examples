@@ -1,0 +1,270 @@
+{
+	"ImportPath": "github.com/st3v/pcf-micro-examples",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v74",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/cenkalti/backoff",
+			"Comment": "v1.0.0-7-gcdf48bb",
+			"Rev": "cdf48bbc1eb78d1349cbda326a4a037f7ba565c6"
+		},
+		{
+			"ImportPath": "github.com/clbanning/x2j",
+			"Rev": "f6421fb8583d19dfa0846d81e33a672addd7beeb"
+		},
+		{
+			"ImportPath": "github.com/eclipse/paho.mqtt.golang",
+			"Comment": "v0.9.1-48-g45f9b18",
+			"Rev": "45f9b18f4864c81d49c3ed01e5faec9eeb05de31"
+		},
+		{
+			"ImportPath": "github.com/eclipse/paho.mqtt.golang/packets",
+			"Comment": "v0.9.1-48-g45f9b18",
+			"Rev": "45f9b18f4864c81d49c3ed01e5faec9eeb05de31"
+		},
+		{
+			"ImportPath": "github.com/emicklei/go-restful",
+			"Comment": "v1.2-62-g274e7c7",
+			"Rev": "274e7c7b27338d50d57a9d1c6ea1c592308d244f"
+		},
+		{
+			"ImportPath": "github.com/emicklei/go-restful/log",
+			"Comment": "v1.2-62-g274e7c7",
+			"Rev": "274e7c7b27338d50d57a9d1c6ea1c592308d244f"
+		},
+		{
+			"ImportPath": "github.com/franela/goreq",
+			"Rev": "fc08df6ca2d4a0d1a5ae24739aa268863943e723"
+		},
+		{
+			"ImportPath": "github.com/golang/protobuf/proto",
+			"Rev": "0c1f6d65b5a189c2250d10e71a5506f06f9fa0a0"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/consul/api",
+			"Comment": "v0.6.4-378-gaf30e17",
+			"Rev": "af30e17dcd1a6869da033bd55ad949973c7c54e9"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/consul/watch",
+			"Comment": "v0.6.4-378-gaf30e17",
+			"Rev": "af30e17dcd1a6869da033bd55ad949973c7c54e9"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/go-cleanhttp",
+			"Rev": "875fb671b3ddc66f8e2f0acc33829c8cb989a38d"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/serf/coordinate",
+			"Comment": "v0.7.0-47-g598c548",
+			"Rev": "598c54895cc5a7b1a24a398d635e8c0ea0959870"
+		},
+		{
+			"ImportPath": "github.com/hudl/fargo",
+			"Comment": "1.1-3-g32d41ee",
+			"Rev": "32d41ee17ff2c56ba332750061d1772552d46538"
+		},
+		{
+			"ImportPath": "github.com/micro/cli",
+			"Comment": "1.2.0-241-g3d2263b",
+			"Rev": "3d2263bb092286dde294a31049c92665f8373820"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/broker",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/broker/http",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/broker/mqtt",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/client",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/cmd",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/codec",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/codec/jsonrpc",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/codec/protorpc",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/errors",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/metadata",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/registry",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/registry/consul",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/registry/mdns",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/selector",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/selector/cache",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/selector/internal/blacklist",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/server",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/server/debug",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/server/debug/proto",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/transport",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-micro/transport/http",
+			"Rev": "476ea00164849a1a8323dfc02ab395a3fd745528"
+		},
+		{
+			"ImportPath": "github.com/micro/go-plugins/registry/eureka",
+			"Rev": "5b727e8d5446e6bae98a2e55a7e83aa36e5ac489"
+		},
+		{
+			"ImportPath": "github.com/micro/go-web",
+			"Rev": "057acae7c1dbea5af0e8f4e935943a6af8add691"
+		},
+		{
+			"ImportPath": "github.com/micro/mdns",
+			"Rev": "d37bec73c909e7cb2930877f877e63dde9998d25"
+		},
+		{
+			"ImportPath": "github.com/micro/micro/api/proto",
+			"Rev": "6da9cf1551212ac201f11911869838becf768220"
+		},
+		{
+			"ImportPath": "github.com/micro/misc/lib/tls",
+			"Rev": "677e2a0beb40a3dd7418548fe0cdc661e2922859"
+		},
+		{
+			"ImportPath": "github.com/miekg/dns",
+			"Rev": "5d001d020961ae1c184f9f8152fdc73810481677"
+		},
+		{
+			"ImportPath": "github.com/mitchellh/hashstructure",
+			"Rev": "b098c52ef6beab8cd82bc4a32422cf54b890e8fa"
+		},
+		{
+			"ImportPath": "github.com/op/go-logging",
+			"Comment": "v1-7-g970db52",
+			"Rev": "970db520ece77730c7e4724c61121037378659d9"
+		},
+		{
+			"ImportPath": "github.com/pborman/uuid",
+			"Comment": "v1.0-11-gc55201b",
+			"Rev": "c55201b036063326c5b1b89ccfe45a184973d073"
+		},
+		{
+			"ImportPath": "github.com/st3v/cfkit/env",
+			"Rev": "ae45575dddb52fab2636c1bb97b78e3b9e57b205"
+		},
+		{
+			"ImportPath": "github.com/st3v/pcf-micro",
+			"Rev": "2b0ae05169aa82baeb49fd3eb3ef20811efd2f07"
+		},
+		{
+			"ImportPath": "github.com/st3v/pcf-micro/springcloud",
+			"Rev": "2b0ae05169aa82baeb49fd3eb3ef20811efd2f07"
+		},
+		{
+			"ImportPath": "golang.org/x/net/bpf",
+			"Rev": "1961d9def2b2d7a28d7958926d2457d05a178ecd"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "1961d9def2b2d7a28d7958926d2457d05a178ecd"
+		},
+		{
+			"ImportPath": "golang.org/x/net/internal/iana",
+			"Rev": "1961d9def2b2d7a28d7958926d2457d05a178ecd"
+		},
+		{
+			"ImportPath": "golang.org/x/net/ipv4",
+			"Rev": "1961d9def2b2d7a28d7958926d2457d05a178ecd"
+		},
+		{
+			"ImportPath": "golang.org/x/net/ipv6",
+			"Rev": "1961d9def2b2d7a28d7958926d2457d05a178ecd"
+		},
+		{
+			"ImportPath": "golang.org/x/net/websocket",
+			"Rev": "1961d9def2b2d7a28d7958926d2457d05a178ecd"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2",
+			"Rev": "65a8d08c6292395d47053be10b3c5e91960def76"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2/clientcredentials",
+			"Rev": "65a8d08c6292395d47053be10b3c5e91960def76"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2/internal",
+			"Rev": "65a8d08c6292395d47053be10b3c5e91960def76"
+		},
+		{
+			"ImportPath": "gopkg.in/gcfg.v1",
+			"Comment": "v1.0.0",
+			"Rev": "083575c3955c85df16fe9590cceab64d03f5eb6e"
+		},
+		{
+			"ImportPath": "gopkg.in/gcfg.v1/scanner",
+			"Comment": "v1.0.0",
+			"Rev": "083575c3955c85df16fe9590cceab64d03f5eb6e"
+		},
+		{
+			"ImportPath": "gopkg.in/gcfg.v1/token",
+			"Comment": "v1.0.0",
+			"Rev": "083575c3955c85df16fe9590cceab64d03f5eb6e"
+		},
+		{
+			"ImportPath": "gopkg.in/gcfg.v1/types",
+			"Comment": "v1.0.0",
+			"Rev": "083575c3955c85df16fe9590cceab64d03f5eb6e"
+		}
+	]
+}
